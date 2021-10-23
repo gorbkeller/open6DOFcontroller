@@ -1,0 +1,263 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sensor_Magnetic:DRV5033AJQDBZ U2
+U 1 1 60BC3B3D
+P 4500 4100
+F 0 "U2" H 4270 4146 50  0000 R CNN
+F 1 "DRV5033AJQDBZ" H 4270 4055 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 3750 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/drv5033.pdf" H 4500 4750 50  0001 C CNN
+	1    4500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:DRV5033AJQDBZ U3
+U 1 1 60BC480F
+P 4600 5050
+F 0 "U3" H 4370 5096 50  0000 R CNN
+F 1 "DRV5033AJQDBZ" H 4370 5005 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4600 4700 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/drv5033.pdf" H 4600 5700 50  0001 C CNN
+	1    4600 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:DRV5033AJQDBZ U4
+U 1 1 60BC51BA
+P 4600 6050
+F 0 "U4" H 4370 6096 50  0000 R CNN
+F 1 "DRV5033AJQDBZ" H 4370 6005 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4600 5700 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/drv5033.pdf" H 4600 6700 50  0001 C CNN
+	1    4600 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:DRV5033AJQDBZ U5
+U 1 1 60BC5D29
+P 6150 3050
+F 0 "U5" H 5920 3096 50  0000 R CNN
+F 1 "DRV5033AJQDBZ" H 5920 3005 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6150 2700 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/drv5033.pdf" H 6150 3700 50  0001 C CNN
+	1    6150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:DRV5033AJQDBZ U6
+U 1 1 60BC6F1D
+P 6200 4100
+F 0 "U6" H 5970 4146 50  0000 R CNN
+F 1 "DRV5033AJQDBZ" H 5970 4055 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6200 3750 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/drv5033.pdf" H 6200 4750 50  0001 C CNN
+	1    6200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:DRV5033AJQDBZ U7
+U 1 1 60BC73AE
+P 6250 5150
+F 0 "U7" H 6020 5196 50  0000 R CNN
+F 1 "DRV5033AJQDBZ" H 6020 5105 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6250 4800 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/drv5033.pdf" H 6250 5800 50  0001 C CNN
+	1    6250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:DRV5033AJQDBZ U8
+U 1 1 60BC79CA
+P 6250 6100
+F 0 "U8" H 6020 6146 50  0000 R CNN
+F 1 "DRV5033AJQDBZ" H 6020 6055 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6250 5750 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/drv5033.pdf" H 6250 6750 50  0001 C CNN
+	1    6250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Magnetic:DRV5033AJQDBZ U9
+U 1 1 60BC7FC2
+P 7700 3050
+F 0 "U9" H 7470 3096 50  0000 R CNN
+F 1 "DRV5033AJQDBZ" H 7470 3005 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7700 2700 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/drv5033.pdf" H 7700 3700 50  0001 C CNN
+	1    7700 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3050 5100 3050
+Wire Wire Line
+	5100 3050 5100 1850
+Wire Wire Line
+	4800 4100 5200 4100
+Wire Wire Line
+	5200 4100 5200 1850
+Wire Wire Line
+	4900 5050 5300 5050
+Wire Wire Line
+	5300 5050 5300 1850
+Wire Wire Line
+	4900 6050 5400 6050
+Wire Wire Line
+	5400 6050 5400 1850
+Wire Wire Line
+	6550 6100 7200 6100
+Wire Wire Line
+	7200 6100 7200 1800
+Wire Wire Line
+	6550 5150 7100 5150
+Wire Wire Line
+	7100 5150 7100 1800
+Wire Wire Line
+	6500 4100 7000 4100
+Wire Wire Line
+	7000 4100 7000 1750
+Wire Wire Line
+	6900 3050 6900 1800
+Wire Wire Line
+	6450 3050 6900 3050
+Wire Wire Line
+	8000 3050 8200 3050
+Wire Wire Line
+	8200 3050 8200 1700
+Wire Wire Line
+	4350 2650 5600 2650
+Wire Wire Line
+	4400 3700 5600 3700
+Wire Wire Line
+	4500 4650 5600 4650
+Wire Wire Line
+	6150 4650 6150 4750
+Wire Wire Line
+	4500 5650 5600 5650
+Wire Wire Line
+	6150 5650 6150 5700
+Wire Wire Line
+	6050 2650 7600 2650
+Connection ~ 6050 2650
+Wire Wire Line
+	5600 2650 5600 3700
+Connection ~ 5600 2650
+Wire Wire Line
+	5600 2650 6050 2650
+Connection ~ 5600 3700
+Wire Wire Line
+	5600 3700 6100 3700
+Wire Wire Line
+	5600 3700 5600 4650
+Connection ~ 5600 4650
+Wire Wire Line
+	5600 4650 6150 4650
+Wire Wire Line
+	5600 4650 5600 5650
+Connection ~ 5600 5650
+Wire Wire Line
+	5600 5650 6150 5650
+Wire Wire Line
+	4350 3450 5750 3450
+Wire Wire Line
+	4400 4500 5750 4500
+Wire Wire Line
+	4500 5450 4500 5550
+Wire Wire Line
+	4500 5550 5750 5550
+Wire Wire Line
+	4500 6450 4500 6500
+Wire Wire Line
+	4500 6500 5750 6500
+Wire Wire Line
+	6050 3450 7600 3450
+Connection ~ 6050 3450
+Wire Wire Line
+	5750 3450 5750 4500
+Connection ~ 5750 3450
+Wire Wire Line
+	5750 3450 6050 3450
+Connection ~ 5750 4500
+Wire Wire Line
+	5750 4500 6100 4500
+Wire Wire Line
+	5750 4500 5750 5550
+Connection ~ 5750 5550
+Wire Wire Line
+	5750 5550 6150 5550
+Wire Wire Line
+	5750 5550 5750 6500
+Connection ~ 5750 6500
+Wire Wire Line
+	5750 6500 6150 6500
+Wire Wire Line
+	5600 5650 5600 6850
+Wire Wire Line
+	5750 6500 5750 6850
+$Comp
+L power:GND #PWR0101
+U 1 1 60BD434F
+P 5750 6850
+F 0 "#PWR0101" H 5750 6600 50  0001 C CNN
+F 1 "GND" H 5755 6677 50  0000 C CNN
+F 2 "" H 5750 6850 50  0001 C CNN
+F 3 "" H 5750 6850 50  0001 C CNN
+	1    5750 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2650 5600 2450
+$Comp
+L power:VCC #PWR0102
+U 1 1 60BD577C
+P 5600 2450
+F 0 "#PWR0102" H 5600 2300 50  0001 C CNN
+F 1 "VCC" H 5615 2623 50  0000 C CNN
+F 2 "" H 5600 2450 50  0001 C CNN
+F 3 "" H 5600 2450 50  0001 C CNN
+	1    5600 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5100 1850 1    50   Output ~ 0
+S1
+Text GLabel 5200 1850 1    50   Output ~ 0
+S2
+Text GLabel 5300 1850 1    50   Output ~ 0
+S3
+Text GLabel 5400 1850 1    50   Output ~ 0
+S4
+Text GLabel 6900 1800 1    50   Output ~ 0
+S5
+Text GLabel 7000 1750 1    50   Output ~ 0
+S6
+Text GLabel 7100 1800 1    50   Output ~ 0
+S7
+Text GLabel 7200 1800 1    50   Output ~ 0
+S8
+Text GLabel 8200 1700 1    50   Output ~ 0
+S9
+$Comp
+L Sensor_Magnetic:DRV5033AJQDBZ U1
+U 1 1 60BC2DAE
+P 4450 3050
+F 0 "U1" H 4220 3096 50  0000 R CNN
+F 1 "DRV5033AJQDBZ" H 4220 3005 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4450 2700 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/drv5033.pdf" H 4450 3700 50  0001 C CNN
+	1    4450 3050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
