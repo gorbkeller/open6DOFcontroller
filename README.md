@@ -21,5 +21,5 @@ Some people might not like the 6DOF with one hand control, so a fork of this rep
 
 In-depth plan TBD! - gribgrob_k
 
-[The main bodies of the V0.1 design](imgs/o6DOFc_V0.1)
+[The main bodies of the V0.1 design](imgs/o6DOFc_V0.1.png)
 
