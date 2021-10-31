@@ -23,9 +23,13 @@ In-depth plan TBD! - gribgrob_k
 
 [The main bodies of the V0.1 design](imgs/o6DOFc_V0.1.png)
 
-TODO:
-1. Change discrete HES to 3-axis packages using a flat PCB
-2. Update CAD to be compatible with the new PCB design
-3. Port output values from example Fusion script to the dedicated MCU (arduino initially)
-4. Develop QMK-side of the device
+TO-DO:
+High-priority:
+1. Validate first version of the flex PCB
+2. Finish start-up calibration sequence
+3. Port data processing to fusion script for proof-of-concept
+
+Low-priority:
+1. Port output values from example Fusion script to the dedicated MCU (arduino initially)
+2. Develop QMK-side of the device
 
