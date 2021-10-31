@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# fcc_11pin_0.5p
+#
+DEF fcc_11pin_0.5p U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "fcc_11pin_0.5p" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X p1 1 0 -250 100 L 50 50 1 1 P
+X p10 10 0 -1600 100 L 50 50 1 1 P
+X p11 11 0 -1750 100 L 50 50 1 1 P
+X p2 2 0 -400 100 L 50 50 1 1 P
+X p3 3 0 -550 100 L 50 50 1 1 P
+X p4 4 0 -700 100 L 50 50 1 1 P
+X p5 5 0 -850 100 L 50 50 1 1 P
+X p6 6 0 -1000 100 L 50 50 1 1 P
+X p7 7 0 -1150 100 L 50 50 1 1 P
+X p8 8 0 -1300 100 L 50 50 1 1 P
+X p9 9 0 -1450 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
